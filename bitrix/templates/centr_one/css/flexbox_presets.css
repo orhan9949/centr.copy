@@ -1,0 +1,131 @@
+/****************** FLEXBOX PRESET ******************/
+
+.nx-flex-row,
+.nx-flex-col,
+.nx-flex-col-st,
+.nx-flex-row-btw,
+.nx-flex-col-btw,
+.nx-flex-row-st,
+.nx-flex-row-btw-st,
+.nx-flex-col-btw-st,
+.nx-flex-row-СЃ-st,
+.nx-flex-row-btw-c,
+.nx-flex-row-btw-b,
+.nx-flex-row-c-c, 
+.nx-flex-col-c-c,
+.nx-flex-row-b-c,
+.nx-flex-row-t-c,
+.nx-flex-col-t-c,
+.nx-flex-row-t-r,
+.nx-flex-col-t-r,
+.nx-flex-row-l-c,
+.nx-flex-col-l-c,
+.nx-flex-col-b-c,
+.nx-flex-row-r-c,
+.nx-flex-col-r-c,
+.nx-flex-row-b {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;   
+    -webkit-justify-content: flex-start;
+              -ms-flex-pack: start;
+        justify-content: flex-start;
+    -webkit-align-content: flex-start;
+       -ms-flex-line-pack: start;
+            align-content: flex-start;
+    -webkit-align-items: flex-start;
+              -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+
+.nx-flex-row-btw,
+.nx-flex-col-btw,
+.nx-flex-row-btw-st,
+.nx-flex-col-btw-st,
+.nx-flex-row-btw-c,
+.nx-flex-row-btw-b {
+   -webkit-justify-content: space-between;
+             -ms-flex-pack: justify;
+           justify-content: space-between;
+}
+.nx-flex-row-st,
+.nx-flex-col-st,
+.nx-flex-row-СЃ-st,
+.nx-flex-row-btw-st,
+.nx-flex-col-btw-st {
+  -webkit-align-content: stretch;
+     -ms-flex-line-pack: stretch;
+          align-content: stretch;
+    -webkit-align-items: stretch;
+         -ms-flex-align: stretch;
+            align-items: stretch;
+}
+
+.nx-flex-col-b-c,
+.nx-flex-row-t-r,
+.nx-flex-row-r-c,
+.nx-flex-col-r-c {
+-webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+        justify-content: flex-end;
+}
+.nx-flex-row-СЃ-st,
+.nx-flex-row-c-c,
+.nx-flex-col-c-c,
+.nx-flex-row-b-c,
+.nx-flex-col-l-c,
+.nx-flex-row-t-c,
+.nx-flex-col-r-c {
+    -webkit-justify-content: center;
+              -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.nx-flex-row-btw-c,
+.nx-flex-row-c-c,
+.nx-flex-col-c-c,
+.nx-flex-col-t-c,
+.nx-flex-col-b-c,
+.nx-flex-row-l-c,
+.nx-flex-row-r-c {
+  -webkit-align-items: center;
+       -ms-flex-align: center;
+          align-items: center;
+    -webkit-align-content: center;
+     -ms-flex-line-pack: center;
+          align-content: center;
+}
+.nx-flex-col-t-r,
+.nx-flex-row-b-c,
+.nx-flex-col-r-c,
+.nx-flex-row-btw-b,
+.nx-flex-row-b {
+   -webkit-align-content: flex-end;
+      -ms-flex-line-pack: end;
+           align-content: flex-end;
+    -webkit-align-items: flex-end;
+         -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.nx-flex-col,
+.nx-flex-col-st,
+.nx-flex-col-btw,
+.nx-flex-col-btw-st, 
+.nx-flex-col-t-c,
+.nx-flex-col-t-r,
+.nx-flex-col-c-c,
+.nx-flex-col-l-c,
+.nx-flex-col-b-c,
+.nx-flex-col-r-c {
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
